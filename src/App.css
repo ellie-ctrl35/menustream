@@ -1,38 +1,129 @@
 .App {
-  text-align: center;
+    display: flex;
+    flex-direction: row;
+    background: #1C1D22;
+    width:auto;
+    height:100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-side{
+    width: 74%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.right-side {
+    width: 26%;
+    height: 100%;
+    background: #0E1013;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav{
+width: 90%;
+    height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top:2%;
 }
-
-.App-link {
-  color: #61dafb;
+.logo{
+    height:90%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left_nav{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.right_nav{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.title{
+    font-size: 1.35rem;
+    font-family:'Poppins';
+    color: white;
+    font-weight: bold;
+}
+.nav_count {
+    background: #302024;
+    height:50%;
+width: 20%;
+text-align: center;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.count {
+    color: #E42855;
+    font-size:0.7rem;
+}
+.nav_img{
+height: 50%;
+width:17%;
+}
+.row1{
+    width: 90%;
+    height: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items:center;
+     margin-top:2%;
+}
+.kick_start {
+    background: #15171C;
+    height:100%;
+    width:20%;
+    border-radius:0.8rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    color:white;
+    font-family:'Inter';
+    font-weight:600;
+}
+h3{
+    margin-left:0.5rem;
+    font-size:0.8rem;
+}
+.create-btn {
+    background: #00A261;
+    color: #D0D2E1;
+    width:6rem;
+    height:1.8rem;
+border-radius:0.4rem;
+border:none;
+}
+.illustration {
+   width:99%;
+   height:40%;
+}
+.campaign_board {
+    background: #15171C;
+    height: 100%;
+    width: 70%;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+}
+.tabs{
+    width:89%;
+    height:5.3%;
+    background:white;
+    margin-top:8%;
 }
